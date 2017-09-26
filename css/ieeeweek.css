@@ -1,0 +1,100 @@
+/*!
+ * IEEE WEEK CUSTOM CLASS
+ * Copyright 2017 IEEE-IST
+ * Licensed under MIT
+ */
+.navbar {
+    margin-top: 0;
+    border-radius: 0;
+    padding: 0.8%;
+    font-size: 120%;
+    border: 0;
+}
+
+
+.carousel-caption {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+#gettickets {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #f05f30;
+    padding: 10px 20px;
+    font-size: 30px;
+
+}
+
+.fa {
+    padding: 2%;
+    font-size: 40px;
+
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        float: right;
+    }
+
+    #logo {
+        max-width:170px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 992px ){
+
+    .navbar-nav {
+        margin-left: 2px;
+    }
+
+    #logo {
+        max-width: 140px;
+        margin-top: -15px;
+    }
+
+    #gettickets {
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+
+    #map {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+#map{
+    height: 500px;
+}
+
+#about{
+    background-color:#536380
+}
+
+#contact_title{
+    color: white;
+    background-color:#536380;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#contact_title h1{
+    font-size: 50px;
+}
+
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    /* color: rgba(255,255,255,.7); */
+    color: black;
+}
+
+#mainNav {
+    border-color: rgba(255,255,255,.3);
+    /* background-color: transparent; */
+}
